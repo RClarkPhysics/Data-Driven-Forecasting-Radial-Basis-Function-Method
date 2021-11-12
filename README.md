@@ -11,7 +11,7 @@ We want to model the behavior of the observed variable x(t), but F(x(t)) is unko
 
 x(n+1) = x(n) + dt*F(x(t))
 
-Now we want a Function Representation for F(x(t)). Inspired by our knowledge of NaKL, we choose a representation the form:
+Now we want a Function Representation for F(x(t)). We choose a representation the form:
 
 f(x(t)) = sum(RBF(V(n),c_q))
 
